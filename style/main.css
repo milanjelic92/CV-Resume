@@ -69,6 +69,10 @@ body {
     margin-left: 20px;
     color: #6f6a6afc;
 }
+.contact-text a {
+    text-decoration: none;
+    color: inherit;
+}
 .contact-container {
     display: flex;
     align-items: center;
@@ -118,7 +122,9 @@ body {
 .office-container, .english-container {
     margin-bottom: 15px;
 }
-
+.typing-container {
+    margin-bottom: 15px;
+}
 .character-section p {
     margin-bottom: 15px;
     text-align: center;
@@ -172,6 +178,9 @@ ion-icon {
     font-weight: 500;
 }
 
+
+
+
 .sources-container {
     display: flex;
     flex-direction: column;
@@ -213,4 +222,33 @@ ion-icon {
 }
 .right-part-card.programming-part span a:hover {
     color: #6f6a6afc;
+}
+
+
+@media (max-width: 768px) {
+   
+    .main-section {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .left-part {
+        width: 100%;
+    }
+    .title {
+        text-align: center;
+    }
+    .faculty-section-right.faculty-section-education {
+        width: 33%;
+    }
+    .faculty-section-left p {
+        margin-right: 15px;
+    }
+    
+    .right-part h1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 }
